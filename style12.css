@@ -1,0 +1,258 @@
+@media (max-width: 360px){
+    #gordo_imbecil{
+        display: none;
+    }
+    #nombredescPeruano{
+        display: none;
+    }
+    #arribadeltodo{
+        display: none;
+    }
+    #cosas_de_arriba{
+        display: flex;
+        flex-direction: column;
+    }
+    #nombredescPeru {
+        display: flex;
+        align-items: start;
+        margin-top: 20px;
+        margin-left: 5px;
+        flex-direction: column;
+    }
+    #pfp{
+        width: 50px;
+        height: 50px;
+    }
+    #fofo{
+        width: 50px;
+        height: 50px;
+        border-radius: 100%;
+    }
+    footer{
+        display: flex;
+        justify-content: center;
+        gap: 10%;
+        margin-top: 10px;
+        width: 100%;
+        height: 30px;
+        bottom: 0;
+        background-color: white;
+        position: fixed;
+        align-items: center;
+    }
+}
+@media(min-width: 361px){
+    #fofo {
+        width: 100px;
+        height: 100px;
+        border-radius: 100%;
+    }
+    #nombredescPeru{
+        display: none;
+    }
+    #nombredescPeruano {
+        display: flex;
+        align-items: start;
+        margin-top: 20px;
+        margin-left: 5px;
+        flex-direction: column;
+    }
+    #conazos1{
+        display: none;
+    }
+    #conazos2{
+        display: none;
+    }
+    #conazos3{
+        display: none;
+    }
+    #conazos4{
+        display: none;
+    }
+    #conazos5{
+        display: none;
+    }
+    #peladin{
+        display: none;
+    }
+    #flechona{
+        display: none;
+    }
+    #putitos{
+        display: none;
+    }
+    #name{
+        display: none;
+    }
+    #pelado{
+        display: none;
+    }
+    #arribadeltodo {
+        display: flex;
+        margin: 0;
+        gap: 15px;
+    }
+}
+
+@media(max-width:735px){
+    .carlos{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+    }
+}
+@media(min-width:734px){
+    .carlos{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    align-items: center;
+    gap: 3px;
+
+    }
+}
+
+#gordo_imbecil{
+    justify-content: start;
+    align-items: start;
+    width: 120px;
+}
+@media(min-width: 975px){
+    body{
+        display: flex;
+        justify-content: center;
+    }
+    #publicasion1, #publicasion2, #publicasion3, #publicasion4, #publicasion5, #publicasion6{
+        width: 300px;
+        height: 300px;
+    }
+    #contenedor_general{
+        width: 1000px;
+    }
+    #publicasione{
+        width: 1000px;
+    }
+}
+#todojunto {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+#nomem{
+    margin: 0;
+}
+
+body{
+    margin: 0;
+    
+}
+#miembro{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 14px;
+    justify-content: space-between;
+}
+#flechona{
+    width: 10%;
+}
+#putitos{
+    width: 10px;
+}
+#pfp{
+    display: flex;
+    align-items: start;
+}
+#cosas_de_arriba {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    margin: 10px;
+}
+#pff{
+    display: flex;
+    align-content: center;
+    gap: 20px;
+}
+
+h4, h6, h5{
+    margin: 0;
+}
+#peladoboton{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+#pelado{
+    width: 250px;
+    height: 21px;
+    background-color: rgb(76, 104, 205);
+    border: none;
+}
+#iconosuperprime{
+    width: 10px;
+    height: 10px;
+}
+
+#histericas{
+    display: flex;
+    gap: 7px;
+    margin: 10px;
+}
+.histerica{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.destacona{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    border: 2px solid black;
+    padding: 2px;
+}
+#menu{
+    display: flex;
+    margin: 20px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.posteos{
+    width: 30px;
+    height: 30px;
+    border-bottom: 1px solid black;
+}
+.etiquetados{
+    width: 30px;
+    height: 30px;
+}
+.reels{
+    width: 25px;
+    height: 25px;
+}
+#publicasione{
+    display: flex;
+    width: 100%;
+    gap: 0.5%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.publicasion{
+    width: 33%;
+    height: 33vw;
+    margin: 0;
+}
+.xd{
+    display: flex;
+    width: 33%;
+    justify-content: center;
+}
+.conazo{
+    height: 20px;
+    width: 20px;
+}
